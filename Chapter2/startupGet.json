@@ -1,0 +1,28 @@
+[
+  {
+    "description":"模拟无参GET",
+    "request":{
+      "uri":"/getdemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"这是无参的GET请求"
+    }
+
+  },
+  {
+    "description":"模拟带参GET",
+    "request":{
+      "uri":"/getdwithparam",
+      "method":"get",
+      "queries":{
+        "name":"chenzhenhua",
+        "age":"25"
+      }
+    },
+    "response":{
+      "text":"陈镇华的GET请求"
+    }
+  }
+
+]
