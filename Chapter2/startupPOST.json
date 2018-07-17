@@ -1,0 +1,30 @@
+[
+  {
+    "description":"无参POST",
+    "request":{
+      "uri":"/postdemo"
+      "method":"post"
+    },
+    "response":{
+      "text":"第一个无参POST请求demo"
+    }
+
+  },
+  {
+    "description":"带参POST",
+    "request":{
+      "uri":"/postwithparam",
+      "method":"post",
+      "forms":{
+        "name":"chenzhenhua",
+        "age":"25"
+      }
+    },
+    "response":{
+      "text":"第一个带参POST请求demo"
+    }
+
+  }
+
+
+]
