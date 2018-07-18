@@ -6,6 +6,9 @@
       "method":"get"
     },
     "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
       "text":"这是无参的GET请求"
     }
 
@@ -21,6 +24,9 @@
       }
     },
     "response":{
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
       "text":"陈镇华的GET请求"
     }
   }

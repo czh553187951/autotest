@@ -1,0 +1,18 @@
+[
+  {
+    "description": "模拟带cookiesGET",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "text": "cookies！！！！"
+    }
+  }
+  ]
