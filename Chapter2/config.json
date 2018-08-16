@@ -2,7 +2,12 @@
 
   {"include":"startup1.json"},
 
-  {"include":"startupPOST.json"}
+ {"include":"startupPOST.json"},
+
+  {"include":"startupWithCookies.json"},
+
+  {"include":"startupwithredirect.json"}
+
 
 ]
 

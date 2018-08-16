@@ -2,7 +2,25 @@
   {
     "description": "模拟带cookiesGET",
     "request": {
-      "uri": "/getdemo",
+      "uri": "/getcookies",
+      "method": "get"
+
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "cookies":{
+        "login":"true"
+
+      },
+      "text": "获得cookies！！！！"
+    }
+  },
+  {
+    "description": "模拟带cookiesGET",
+    "request": {
+        "uri": "/cookiesdemo",
       "method": "get",
       "cookies":{
         "login":"true"
@@ -13,6 +31,31 @@
         "Content-Type": "text/html;charset=gbk"
       },
       "text": "cookies！！！！"
+    }
+  },
+
+  {
+    "description":"模拟带cookiesPOST",
+    "request":{
+      "uri":"/postcookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"chenzhenhua",
+        "age":"18"
+      }
+    },
+    "response":{
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "status":200,
+      "json":{
+        "chenzhenhua":"success",
+        "status":"1"
+      }
     }
   }
   ]

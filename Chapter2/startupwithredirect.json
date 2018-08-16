@@ -1,0 +1,28 @@
+[
+  {
+    "description": "重定向",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "https://www.baidu.com/"
+  },
+  {
+    "description": "重定向2",
+    "request": {
+      "uri": "/redirect/my"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "wangye",
+    "request": {
+      "uri": "/redirect/new"
+    },
+    "response":{
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      },
+      "text":"成功！"
+    }
+  }
+]
